@@ -1,0 +1,6 @@
+framework module WowweeCojiSDK {
+  umbrella header "WowweeCojiSDK.h"
+
+  export *
+  module * { export * }
+}
