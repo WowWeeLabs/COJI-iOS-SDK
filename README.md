@@ -56,7 +56,7 @@ Using the SDK
 ---------------------------------
 
 7. Choose the classes you want to handle the delegate callbacks from a COJI Robot, these classes will receive callbacks for when events happen (such as finding a new robot, robot connected, robot falls over etc) in this case we will simply choose our DeviceHub class.
-	#Scan and Connect COJI
+	#scan-and-connect-coji
 
 		Scan
 			- (void)startScaning{
@@ -108,7 +108,7 @@ Using the SDK
 			}
 			
 			
-	#Control COJI
+	#control-coji
 		Drive COJI
 			[robot driveForwardWithSpeed:0.5f Time:0.16f];
                         [robot driveBackwardWithSpeed:0.5f Time:0.16f];
