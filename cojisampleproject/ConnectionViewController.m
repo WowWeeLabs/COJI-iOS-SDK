@@ -20,7 +20,6 @@
     // Do any additional setup after loading the view, typically from a nib.
     peripheralList = [NSMutableArray new];
     
-    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(onCojiFinderNotification:) name:CojiFinderNotificationID object:nil];
     [self prepareCBCentralManager];
     
     NSArray* nibViews = [[NSBundle mainBundle] loadNibNamed:@"LoadingView"
@@ -65,12 +64,13 @@
     //#endif
 }
 - (void)startScanning {
+    [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(onCojiFinderNotification:) name:CojiFinderNotificationID object:nil];
     [[CojiFinder sharedInstance] scanForRobots];
-    //    self.scanningLabel.hidden = NO;
 }
 
 - (void)stopScanning {
     [[CojiFinder sharedInstance] stopScanForRobots];
+    [[NSNotificationCenter defaultCenter] removeObserver:self name: CojiFinderNotificationID object:nil];
 }
 
 - (void)changePage {
