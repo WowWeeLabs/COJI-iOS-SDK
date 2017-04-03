@@ -1,9 +1,9 @@
 //
 //  WowweeCojiSDK.h
-//  WowweeCojiSDK.h
+//  BluetoothRobotControlLibrary
 //
-//  Created by Katy Pun on 24/8/15.
-//  Copyright (c) 2015 WowWee. All rights reserved.
+//  Created by David Chan on 3/4/17.
+//  Copyright (c) 2017 WowWee Group Limited. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

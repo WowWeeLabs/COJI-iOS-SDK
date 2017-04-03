@@ -116,7 +116,7 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="HtJ-XD-vdD" id="fh8-dn-IxY">
-                                    <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="375" height="43"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ltZ-N0-SOd">
@@ -150,10 +150,10 @@
             </objects>
             <point key="canvasLocation" x="3298" y="-110"/>
         </scene>
-        <!--Factory Menu View Controller-->
+        <!--Menu View Controller-->
         <scene sceneID="xyk-Qf-bba">
             <objects>
-                <viewController storyboardIdentifier="FactoryMenuViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="JSm-vu-lGh" customClass="FactoryMenuViewController" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="SDKMenuViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="JSm-vu-lGh" customClass="SDKMenuViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="KKo-2b-3zP"/>
                         <viewControllerLayoutGuide type="bottom" id="N6L-xv-Elk"/>
@@ -176,7 +176,7 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="COJI SDK" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DzQ-CJ-euA">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="COJI Menu SDK" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="DzQ-CJ-euA">
                                 <rect key="frame" x="36" y="70" width="303" height="50"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="50" id="1Fx-2K-JYX"/>
@@ -212,7 +212,7 @@
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="labelFirmware" destination="DT9-L1-St1" id="elC-4m-4MV"/>
+                        <outlet property="firmwareLabel" destination="DT9-L1-St1" id="3aM-y3-3Zr"/>
                         <outlet property="menuTable" destination="mLh-xt-00b" id="6Cz-dV-Kab"/>
                     </connections>
                 </viewController>

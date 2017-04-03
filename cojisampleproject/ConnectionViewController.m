@@ -1,13 +1,13 @@
 //
 //  ConnectionViewController.m
-//  cojisampleproject
+//  Sample Project
 //
-//  Created by David Chan on 17/3/2017.
-//  Copyright © 2017 wowwee. All rights reserved.
+//  Created by David Chan on 3/4/17.
+//  Copyright © 2017 WowWee Group Limited. All rights reserved.
 //
 
 #import "ConnectionViewController.h"
-#import "FactoryMenuViewController.h"
+#import "SDKMenuViewController.h"
 
 @interface ConnectionViewController ()
 
@@ -75,7 +75,7 @@
 
 - (void)changePage {
     UIStoryboard* sb = [UIStoryboard storyboardWithName:@"Main" bundle:nil];
-    FactoryMenuViewController *controller = [sb instantiateViewControllerWithIdentifier:@"FactoryMenuViewController"];
+    SDKMenuViewController *controller = [sb instantiateViewControllerWithIdentifier:@"SDKMenuViewController"];
     [self.navigationController pushViewController:controller animated:YES];
 }
 

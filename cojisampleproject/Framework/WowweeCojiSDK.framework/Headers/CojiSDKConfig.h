@@ -1,9 +1,9 @@
 //
 //  CojiSDKConfig.h
-//  WowWeeCojiSDK
+//  BluetoothRobotControlLibrary
 //
-//  Created by Forrest Chan on 17/11/14.
-//  Copyright (c) 2014 WowWee Group Ltd. All rights reserved.
+//  Created by David Chan on 3/4/17.
+//  Copyright (c) 2017 WowWee Group Limited. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

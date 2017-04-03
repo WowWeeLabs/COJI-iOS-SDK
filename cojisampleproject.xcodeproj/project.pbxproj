@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AB0515591E91FB880063952C /* AnimationList.plist in Resources */ = {isa = PBXBuildFile; fileRef = AB0515561E91FB880063952C /* AnimationList.plist */; };
+		AB05155A1E91FB880063952C /* ImageList.plist in Resources */ = {isa = PBXBuildFile; fileRef = AB0515571E91FB880063952C /* ImageList.plist */; };
+		AB05155B1E91FB880063952C /* SoundList.plist in Resources */ = {isa = PBXBuildFile; fileRef = AB0515581E91FB880063952C /* SoundList.plist */; };
 		AB12D89F1E7BD89800A65631 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AB12D89E1E7BD89800A65631 /* main.m */; };
 		AB12D8A21E7BD89800A65631 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AB12D8A11E7BD89800A65631 /* AppDelegate.m */; };
 		AB12D8A51E7BD89800A65631 /* ConnectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB12D8A41E7BD89800A65631 /* ConnectionViewController.m */; };
@@ -18,7 +21,7 @@
 		AB12D8C11E7BE47100A65631 /* LoadingView.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB12D8BF1E7BE47100A65631 /* LoadingView.xib */; };
 		AB12D8C41E7BE48100A65631 /* WowweeCojiSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB12D8C31E7BE48100A65631 /* WowweeCojiSDK.framework */; };
 		AB1BFE141E7BE4FE007E8E8A /* WowweeCojiSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AB12D8C31E7BE48100A65631 /* WowweeCojiSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		AB1BFE1B1E7BE6D4007E8E8A /* FactoryMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1BFE181E7BE6D4007E8E8A /* FactoryMenuViewController.m */; };
+		AB1BFE1B1E7BE6D4007E8E8A /* SDKMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1BFE181E7BE6D4007E8E8A /* SDKMenuViewController.m */; };
 		AB1BFE1C1E7BE6D4007E8E8A /* ItemsSelectionTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1BFE1A1E7BE6D4007E8E8A /* ItemsSelectionTableViewController.m */; };
 		AB1BFE201E7BE773007E8E8A /* ItemTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1BFE1F1E7BE773007E8E8A /* ItemTableViewCell.m */; };
 		AB1BFE231E7BEE4E007E8E8A /* ButtonTestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1BFE221E7BEE4E007E8E8A /* ButtonTestViewController.m */; };
@@ -39,6 +42,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AB0515561E91FB880063952C /* AnimationList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = AnimationList.plist; sourceTree = "<group>"; };
+		AB0515571E91FB880063952C /* ImageList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ImageList.plist; sourceTree = "<group>"; };
+		AB0515581E91FB880063952C /* SoundList.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = SoundList.plist; sourceTree = "<group>"; };
 		AB12D89A1E7BD89800A65631 /* cojisampleproject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = cojisampleproject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB12D89E1E7BD89800A65631 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AB12D8A01E7BD89800A65631 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -54,8 +60,8 @@
 		AB12D8BE1E7BE47100A65631 /* LoadingView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoadingView.m; sourceTree = "<group>"; };
 		AB12D8BF1E7BE47100A65631 /* LoadingView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoadingView.xib; sourceTree = "<group>"; };
 		AB12D8C31E7BE48100A65631 /* WowweeCojiSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WowweeCojiSDK.framework; sourceTree = "<group>"; };
-		AB1BFE171E7BE6D4007E8E8A /* FactoryMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FactoryMenuViewController.h; sourceTree = "<group>"; };
-		AB1BFE181E7BE6D4007E8E8A /* FactoryMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FactoryMenuViewController.m; sourceTree = "<group>"; };
+		AB1BFE171E7BE6D4007E8E8A /* SDKMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SDKMenuViewController.h; sourceTree = "<group>"; };
+		AB1BFE181E7BE6D4007E8E8A /* SDKMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SDKMenuViewController.m; sourceTree = "<group>"; };
 		AB1BFE191E7BE6D4007E8E8A /* ItemsSelectionTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemsSelectionTableViewController.h; sourceTree = "<group>"; };
 		AB1BFE1A1E7BE6D4007E8E8A /* ItemsSelectionTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ItemsSelectionTableViewController.m; sourceTree = "<group>"; };
 		AB1BFE1E1E7BE773007E8E8A /* ItemTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ItemTableViewCell.h; sourceTree = "<group>"; };
@@ -77,6 +83,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		AB0515551E91FB880063952C /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				AB0515561E91FB880063952C /* AnimationList.plist */,
+				AB0515571E91FB880063952C /* ImageList.plist */,
+				AB0515581E91FB880063952C /* SoundList.plist */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		AB12D8911E7BD89800A65631 = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +112,7 @@
 		AB12D89C1E7BD89800A65631 /* cojisampleproject */ = {
 			isa = PBXGroup;
 			children = (
+				AB0515551E91FB880063952C /* Resources */,
 				AB12D8C21E7BE48100A65631 /* Framework */,
 				AB12D8A01E7BD89800A65631 /* AppDelegate.h */,
 				AB12D8A11E7BD89800A65631 /* AppDelegate.m */,
@@ -103,8 +120,8 @@
 				AB1BFE221E7BEE4E007E8E8A /* ButtonTestViewController.m */,
 				AB12D8A31E7BD89800A65631 /* ConnectionViewController.h */,
 				AB12D8A41E7BD89800A65631 /* ConnectionViewController.m */,
-				AB1BFE171E7BE6D4007E8E8A /* FactoryMenuViewController.h */,
-				AB1BFE181E7BE6D4007E8E8A /* FactoryMenuViewController.m */,
+				AB1BFE171E7BE6D4007E8E8A /* SDKMenuViewController.h */,
+				AB1BFE181E7BE6D4007E8E8A /* SDKMenuViewController.m */,
 				AB1BFE191E7BE6D4007E8E8A /* ItemsSelectionTableViewController.h */,
 				AB1BFE1A1E7BE6D4007E8E8A /* ItemsSelectionTableViewController.m */,
 				AB12D8BC1E7BE47100A65631 /* View */,
@@ -214,7 +231,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB05155B1E91FB880063952C /* SoundList.plist in Resources */,
+				AB05155A1E91FB880063952C /* ImageList.plist in Resources */,
 				AB12D8AD1E7BD89800A65631 /* LaunchScreen.storyboard in Resources */,
+				AB0515591E91FB880063952C /* AnimationList.plist in Resources */,
 				AB12D8C11E7BE47100A65631 /* LoadingView.xib in Resources */,
 				AB12D8AA1E7BD89800A65631 /* Assets.xcassets in Resources */,
 				AB12D8A81E7BD89800A65631 /* Main.storyboard in Resources */,
@@ -248,7 +268,7 @@
 				AB12D8A51E7BD89800A65631 /* ConnectionViewController.m in Sources */,
 				AB1BFE1C1E7BE6D4007E8E8A /* ItemsSelectionTableViewController.m in Sources */,
 				AB12D8C01E7BE47100A65631 /* LoadingView.m in Sources */,
-				AB1BFE1B1E7BE6D4007E8E8A /* FactoryMenuViewController.m in Sources */,
+				AB1BFE1B1E7BE6D4007E8E8A /* SDKMenuViewController.m in Sources */,
 				AB12D8A21E7BD89800A65631 /* AppDelegate.m in Sources */,
 				AB1BFE201E7BE773007E8E8A /* ItemTableViewCell.m in Sources */,
 				AB12D89F1E7BD89800A65631 /* main.m in Sources */,

@@ -1,9 +1,9 @@
 //
 //  ItemsSelectionTableViewController.m
-//  EmojiBot
+//  Sample Project
 //
-//  Created by David Chan on 22/9/15.
-//  Copyright © 2015 Hexed Bits. All rights reserved.
+//  Created by David Chan on 3/4/17.
+//  Copyright © 2017 WowWee Group Limited. All rights reserved.
 //
 
 #import "ItemsSelectionTableViewController.h"

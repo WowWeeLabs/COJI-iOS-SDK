@@ -1,9 +1,9 @@
 //
 //  ButtonTestViewController.h
-//  EmojiBot
+//  Sample Project
 //
-//  Created by David Chan on 24/3/16.
-//  Copyright © 2016 Hexed Bits. All rights reserved.
+//  Created by David Chan on 3/4/17.
+//  Copyright © 2017 WowWee Group Limited. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

@@ -1,5 +1,5 @@
 /*
- * Copyright 2010-2014 WowWee Group Ltd, All Rights Reserved.
+ * Copyright 2010-2017 WowWee Group Ltd, All Rights Reserved.
  *
  * Licensed under the "license" file accompanying this file. This file is distributed
  * on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either
